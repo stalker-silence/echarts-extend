@@ -1,0 +1,32 @@
+{
+  "name": "echarts-extend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server . --port=80",
+    "add-feature": "npm version minor",
+    "new-version": "npm version major",
+    "fix-bugs": "npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stalker-silence/echarts-extend#stock"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stalker-silence/echarts-extend/issues"
+  },
+  "homepage": "https://github.com/stalker-silence/echarts-extend#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "echarts": "^4.8.0",
+    "moment": "^2.27.0",
+    "zepto": "^1.2.0"
+  }
+}
