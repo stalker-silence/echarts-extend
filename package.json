@@ -1,34 +1,26 @@
 {
-  "name": "echarts-extend-stock",
-  "version": "0.0.7",
-  "description": "",
-  "main": "index.html",
+  "name": "stalker-blog",
+  "version": "0.0.0",
+  "description": "show stalker's demo",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "live-server . --port=80",
-    "add-feature": "npm version minor",
-    "new-version": "npm version major",
-    "fix-bugs": "npm version patch"
+    "start": "live-server . --port=80"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stalker-silence/echarts-extend#stock"
+    "url": "git+https://github.com/stalker-silence/echarts-extend.git#gh-pages"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "stalker",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/stalker-silence/echarts-extend/issues"
   },
-  "homepage": "https://github.com/stalker-silence/echarts-extend#readme",
-  "devDependencies": {
-    "live-server": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
-  },
+  "homepage": "https://github.com/stalker-silence/echarts-extend/tree/gh-pages#readme",
   "dependencies": {
-    "echarts": "^4.8.0",
-    "moment": "^2.27.0",
-    "zepto": "^1.2.0"
+    "echarts-extend-stock": "0.0.7"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
   }
 }
