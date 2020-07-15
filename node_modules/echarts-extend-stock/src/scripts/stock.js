@@ -178,7 +178,8 @@ stock.prototype.defaultOption = function(){
               },
               axisPointer: {
                   snap: true
-              }
+              },
+              min: Math.max(Math.floor(Math.min.apply(null,this.data)) - 1, 0)
           },
           visualMap: {
               show: false,
