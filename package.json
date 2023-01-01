@@ -23,8 +23,8 @@
   "homepage": "https://github.com/stalker-silence/echarts-extend#readme",
   "devDependencies": {
     "live-server": "^1.2.1",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "echarts": "^4.8.0",
